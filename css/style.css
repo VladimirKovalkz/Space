@@ -216,7 +216,20 @@
   }
 
   @media (max-width: 400px) {
+    
     .email__imput::placeholder {
       padding: 0 5px;
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 370px) {
+    .email__imput {
+      width: 300px;
+    }
+  }
+  @media (max-width: 370px) {
+    .email__imput {
+      width: 250px;
     }
   }
