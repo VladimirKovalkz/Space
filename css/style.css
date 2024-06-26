@@ -213,9 +213,7 @@
   @media (max-width: 860px) {
     .email__imput {
       margin: 0 auto 40px;
-
     }
-
     .email__btn {
       margin: 0 auto;
     }
@@ -223,7 +221,6 @@
 
   @media (max-width: 495px) {
     .friends__text {
-      max-width: 300px;
       margin: 0 auto;
       margin-bottom: 20px;
     }
@@ -231,7 +228,6 @@
 
   @media (max-width: 420px) {
     .email__imput {
-      max-width: 300px;
     }
     .email__imput::placeholder {
       padding: 0 5px;
@@ -241,6 +237,6 @@
 
   @media (max-width: 370px) {
     .email__imput {
-      max-width: 250px;
+      max-width: 300px;
     }
   }
