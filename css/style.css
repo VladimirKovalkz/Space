@@ -1,6 +1,4 @@
-
   html {
-    
     box-sizing: border-box;
   }
 
@@ -26,6 +24,7 @@
   }
 
   .title {
+    font-weight: 400;
     font-size: 37px;
     line-height: 0.97;
     text-align: center;
@@ -214,6 +213,7 @@
     .email__imput {
       margin: 0 auto 40px;
     }
+
     .email__btn {
       margin: 0 auto;
     }
@@ -227,8 +227,8 @@
   }
 
   @media (max-width: 420px) {
-    .email__imput {
-    }
+    .email__imput {}
+
     .email__imput::placeholder {
       padding: 0 5px;
       font-size: 20px;
